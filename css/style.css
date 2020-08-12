@@ -1,0 +1,98 @@
+/* Color Theme Swatches in Hex */
+.Color-Theme-31-1-hex { color: #F22738; }
+.Color-Theme-31-2-hex { color: #8C041D; }
+.Color-Theme-31-3-hex { color: #45858C; }
+.Color-Theme-31-4-hex { color: #F27127; }
+.Color-Theme-31-5-hex { color: #F25244; }
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+section{
+    opacity: 100%;
+}
+.grid > button{
+    height: 100%;
+}
+button{
+    font-family: Blackoak Std;
+    font-size: 15px;
+    border: 0px;
+    background-color: white;
+    color: black;
+}
+
+/* Desabilita o INPUT TEXT */
+input[type="text"]:disabled {
+    background: white;
+    border: 0px;
+    color: black;
+}
+
+/* CORPO */
+#corpo{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(242, 83, 68, 0.5);
+}
+#tela{
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#tela > input{
+    width: 100%;
+    height: 100%;
+    font-family: Blackoak Std;
+    font-size: 25px;
+    box-sizing: border-box;
+    direction: rtl;
+    float: right;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+#teclado{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70%;
+}
+.grid{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+}
+#t0{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+#igual{
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+}
+
+/* RODAPE */
+#rodape{
+    width: 400px;
+    height: 90px;
+    margin: auto;
+    margin-top: 5px;
+}
+#rodape > #grid{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+}
